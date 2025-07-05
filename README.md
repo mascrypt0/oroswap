@@ -10,7 +10,7 @@ Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**,
 
 - ✅ Automatically swaps native **ZIG** tokens into predefined CW20 tokens (e.g., ORO)
 - ✅ Adds liquidity to the Oroswap pool after each swap
-- 🔁 Runs farming cycles continuously with **random delays** between 1–10 minutes
+- 🔁 Runs farming cycles continuously with **random delays**
 - 🔐 **Multi-wallet support** using `wallets.txt`
 - 🌐 **HTTP Proxy support** using `proxies.txt`
 - ⏱️ Countdown timer before each cycle
@@ -23,7 +23,7 @@ Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**,
 
 | File           | Description |
 |----------------|-------------|
-| `bot.js`   | Main bot file that handles farming cycles |
+| `bot.js`       | Main bot file that handles farming cycles |
 | `wallets.txt`  | One mnemonic per line, used for multi-wallet farming |
 | `proxies.txt`  | One HTTP proxy per line (`http://ip:port` format) |
 | `mnemonic.txt` | Optional if not using multi-wallet mode |
