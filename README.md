@@ -32,18 +32,42 @@ Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**,
 ## ⚙️ How to Use
 ### Clone repository
 
----bash
+```bash
 git clone https://github.com/mascrypt0/oroswap.git
----
+```
 
 ### Open folder
 
----bash
+```bash
 cd oroswap
----
+```
 
 ### Install Dependencies
 
 ```bash
 npm install
 ```
+### Run bot
+```bash
+node bot.js
+```
+
+## Prepare Your Files
+wallets.txt:
+Contains one mnemonic per line for each wallet you want the bot to run.
+
+proxies.txt:
+Contains one HTTP proxy per line (e.g., http://123.45.67.89:8080), which the bot will assign randomly to each wallet.
+
+mnemonic.txt (optional):
+Used as fallback if wallets.txt does not exist or is empty.
+
+💡 Make sure your wallets hold enough ZIG and token pairs for swap/liquidity.
+
+## Disclaimer
+This bot is provided for educational and testing purposes only.
+Use it at your own risk. The author takes no responsibility for potential loss of funds or misuse.
+
+## Contributing
+Pull requests and suggestions are welcome!
+If you'd like to improve the proxy rotation, support additional token pairs, or add auto-staking – feel free to fork and contribute!
