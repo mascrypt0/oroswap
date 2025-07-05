@@ -73,4 +73,4 @@ Use it at your own risk. The author takes no responsibility for potential loss o
 
 ## 🤝 Contributing
 Pull requests and suggestions are welcome!
-If you'd like to improve the proxy rotation, support additional token pairs, or add auto-staking – feel free to fork and contribute!
+If you'd like to improve the proxy rotation, support additional token pairs, or add new feature – feel free to fork and contribute!
