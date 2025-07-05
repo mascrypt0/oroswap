@@ -45,7 +45,7 @@ function countdown(minutes) {
 }
 
 // === LOAD MNEMONICS & PROXIES ===
-const mnemonics = fs.readFileSync("mnemonics.txt", "utf8").split("\n").map(x => x.trim()).filter(Boolean);
+const mnemonics = fs.readFileSync("wallets.txt", "utf8").split("\n").map(x => x.trim()).filter(Boolean);
 const proxies = fs.existsSync("proxies.txt")
   ? fs.readFileSync("proxies.txt", "utf8").split("\n").map(x => x.trim()).filter(Boolean)
   : [];
