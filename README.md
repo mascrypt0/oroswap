@@ -30,6 +30,8 @@ Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**,
 ---
 
 ## ⚙️ How to Use
+Follow this simple step to install Oroswap Bot
+
 ### Clone repository
 
 ```bash
@@ -52,7 +54,7 @@ npm install
 node bot.js
 ```
 
-## Prepare Your Files
+## 🔄 Prepare Your Files
 wallets.txt:
 Contains one mnemonic per line for each wallet you want the bot to run.
 
@@ -64,10 +66,10 @@ Used as fallback if wallets.txt does not exist or is empty.
 
 💡 Make sure your wallets hold enough ZIG and token pairs for swap/liquidity.
 
-## Disclaimer
+## ⚠️ Disclaimer
 This bot is provided for educational and testing purposes only.
 Use it at your own risk. The author takes no responsibility for potential loss of funds or misuse.
 
-## Contributing
+## 🤝 Contributing
 Pull requests and suggestions are welcome!
 If you'd like to improve the proxy rotation, support additional token pairs, or add auto-staking – feel free to fork and contribute!
