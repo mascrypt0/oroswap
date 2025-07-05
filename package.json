@@ -1,0 +1,24 @@
+{
+  "name": "oroswap-bot",
+  "version": "1.0.0",
+  "description": "Auto-swap bot for Oroswap on Zigchain Testnet",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.32.1",
+    "@cosmjs/proto-signing": "^0.32.1",
+    "@cosmjs/stargate": "^0.32.1",
+    "https-proxy-agent": "^5.0.0"
+  },
+  "keywords": [
+    "zigchain",
+    "oroswap",
+    "cosmwasm",
+    "auto-bot",
+    "farming"
+  ],
+  "author": "mascrypt0",
+  "license": "MIT"
+}
