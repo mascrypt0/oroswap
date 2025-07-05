@@ -1,6 +1,6 @@
 # 🤖 Oroswap Autoswap
 
-**Created based on @Boren4anzz source code**
+**Created based on @Boren4anzz source code**<br>
 A powerful automation tool to perform **token swap and liquidity provision** on the Oroswap DEX built on ZigChain.  
 Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**, and real-time terminal logging.
 
