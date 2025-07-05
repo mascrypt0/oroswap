@@ -31,7 +31,19 @@ Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**,
 
 ## ⚙️ How to Use
 
-### 1. Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
+
+## Prepare Your Files
+wallets.txt:
+Contains one mnemonic per line for each wallet you want the bot to run.
+
+proxies.txt:
+Contains one HTTP proxy per line (e.g., http://123.45.67.89:8080), which the bot will assign randomly to each wallet.
+
+mnemonic.txt (optional):
+Used as fallback if wallets.txt does not exist or is empty.
+
+💡 Make sure your wallets hold enough ZIG and token pairs for swap/liquidity.
