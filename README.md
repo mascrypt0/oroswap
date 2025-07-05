@@ -55,16 +55,16 @@ node bot.js
 ```
 
 ## 🔄 Prepare Your Files
-wallets.txt:
+- wallets.txt:
 Contains one mnemonic per line for each wallet you want the bot to run.
 
-proxies.txt:
+- proxies.txt:
 Contains one HTTP proxy per line (e.g., http://123.45.67.89:8080), which the bot will assign randomly to each wallet.
-
-mnemonic.txt (optional):
+- mnemonic.txt (optional):
 Used as fallback if wallets.txt does not exist or is empty.
 
-💡 Make sure your wallets hold enough ZIG and token pairs for swap/liquidity.
+- Make sure your wallets hold enough ZIG and token pairs for swap/liquidity.
+
 
 ## ⚠️ Disclaimer
 This bot is provided for educational and testing purposes only.
