@@ -53,7 +53,7 @@ const proxies = fs.existsSync("proxies.txt")
 
 function getRandomProxyAgent() {
   if (!proxies.length) {
-    return { agent: new http.Agent({ keepAlive: true }), info: "tanpa proxy (direct)" };
+    return { agent: new http.Agent({ keepAlive: true }), info: "without proxy (direct)" };
   }
 
   const selected = proxies[Math.floor(Math.random() * proxies.length)];
@@ -130,7 +130,7 @@ async function runForWallet(mnemonic, index) {
   const id = index + 1;
   const { agent: proxyAgent, info: proxyInfo } = getRandomProxyAgent();
 
-  flushLog(`[#${id}] 🌐 Proxy digunakan: ${proxyInfo}`);
+  flushLog(`[#${id}] 🌐 Using Proxy : ${proxyInfo}`);
 
   try {
     const { client, account } = await connectWithWallet(mnemonic, proxyAgent);
