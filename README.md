@@ -30,6 +30,17 @@ Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**,
 ---
 
 ## ⚙️ How to Use
+### Clone repository
+
+---bash
+git clone https://github.com/mascrypt0/oroswap.git
+---
+
+### Open folder
+
+---bash
+cd oroswap
+---
 
 ### Install Dependencies
 
