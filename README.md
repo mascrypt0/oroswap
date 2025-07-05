@@ -26,7 +26,6 @@ Supports **multi-wallet farming**, **proxy rotation**, **random farming delay**,
 | `bot.js`       | Main bot file that handles farming cycles |
 | `wallets.txt`  | One mnemonic per line, used for multi-wallet farming |
 | `proxies.txt`  | One HTTP proxy per line (`http://ip:port` format) |
-| `mnemonic.txt` | Optional if not using multi-wallet mode |
 
 ---
 
